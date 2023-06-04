@@ -18,7 +18,7 @@ Warning: If you want to see projects in projects page, you need to create new re
 **Migrations**
 > - Run the following lines when needs to manage migrations:
 - `python manage.py makemigrations [app]`: to generate a migration.
-- `python manage.py makemigrations [app]`: to apply the generated migrations.
+- `python manage.py migrate [app]`: to apply the generated migrations.
 
 ### **URLs**
 - Django App: http://localhost:8000/

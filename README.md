@@ -2,7 +2,7 @@
 This is a basic Django application to help start coding using Django in the backend.
 This project includes a simple implementation of a projects portfolio to show your works.
 
-Warning: If you want to see projects on the projects page, you need to create new registers of projects in the Admin interface.
+Warning: If you want to see projects in projects page, you need to create new registers of projects using [Admin](http://localhost:8000/admin) interface.
 
 ![Project Image](projects_portfolio_image.png)
 

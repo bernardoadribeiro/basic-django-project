@@ -13,6 +13,9 @@ Warning: If you want to see projects in projects page, you need to create new re
 ### How to run the Django application
 > Run the following commands in the root directory.
 **Command:**
+- Create virtual environment: `python -m venv .venv`
+- Activate the virtual environment: `source .venv/bin/activate`
+- Install the dependencies: `pip install -r requirements.txt`
 - Start App: `python manage.py runserver`
 
 **Migrations**

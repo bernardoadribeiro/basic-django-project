@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+<main>
+    <div class="container">
+        <h1>{{ project.title }}</h1>
+        
+            <div class="col-md-8">
+                <img src="{{ project.image }}" alt="" width="100%">
+            </div>
+            <div class="col-md-4">
+                <h5>About the project:</h5>
+                <p>{{ project.description }}</p>
+                <br>
+                <h5>Technology used:</h5>
+                <p>{{ project.technology }}</p>
+            </div>
+        
+    </div>
+</main>
+{% endblock %}

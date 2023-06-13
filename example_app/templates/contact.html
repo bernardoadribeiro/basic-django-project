@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block page_content %}
+<div class="container">
+    <h1>Contato</h1>
+
+    {% bootstrap_messages %}
+
+    <form action="{% url 'contact' %}" method="post" class="form" autocomplete="off">
+        {% csrf_token %} <!-- Recurso de segurança do Django. Gera um token diferente para cada formulário e verifica se ninguém o alterou no meio do caminho -->
+        
+        {% bootstrap_form form %} <!-- O bootstrap será aplicado em nosso form -->
+        
+        {% buttons %} <!-- Cria um botão -->
+        <button type="submit" class="btn btn-primary"> Enviar Mensagem</button>
+        {% endbuttons %}
+    </form>
+</div>
+{% endblock %}

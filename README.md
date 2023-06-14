@@ -2,13 +2,15 @@
 This is a basic Django application to help start coding using Django in the backend.
 This project includes a simple implementation of a projects portfolio to show your works.
 
-Warning: If you want to see projects in projects page, you need to create new registers of projects using [Admin](http://localhost:8000/admin) interface.
+Warning: This application is now under development.
+
+Warning 2: If you want to see projects in projects page, you need to create new registers of projects using [Admin](http://localhost:8000/admin) interface.
 
 ![Project Image](projects_portfolio_image.png)
 
 ### Technologies
 - Python + Django
-- Sqlite3
+- SQLite3
 
 ### How to run the Django application
 > Run the following commands in the root directory.

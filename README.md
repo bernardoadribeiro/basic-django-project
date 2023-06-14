@@ -1,4 +1,4 @@
-# Basic Flask Application
+# Basic Django Application
 This is a basic Django application to help start coding using Django in the backend.
 This project includes a simple implementation of a projects portfolio to show your works.
 

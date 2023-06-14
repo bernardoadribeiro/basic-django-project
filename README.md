@@ -6,6 +6,8 @@ Warning: This application is now under development.
 
 Warning 2: If you want to see projects in projects page, you need to create new registers of projects using [Admin](http://localhost:8000/admin) interface.
 
+Warning 2: This application is now under development.
+
 ![Project Image](projects_portfolio_image.png)
 
 ### Technologies

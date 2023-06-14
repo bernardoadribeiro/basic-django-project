@@ -5,7 +5,9 @@ from projects.models import Project
 
 
 class ProjectAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('title','technology','description')
+    list_filter = ('title','technology',)
+    search_fields = ('title','technology')
 
 
 admin.site.register(Project, ProjectAdmin)

@@ -19,6 +19,7 @@ Warning 2: If you want to see projects in projects page, you need to create new 
 - Activate the virtual environment: `source .venv/bin/activate`
 - Install the dependencies: `pip install -r requirements.txt`
 - Start App: `python manage.py runserver`
+- Create Super User: `python manage.py createsuperuser`
 
 **Migrations**
 > - Run the following lines when needs to manage migrations:

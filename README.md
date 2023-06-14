@@ -4,11 +4,13 @@ This project includes a simple implementation of a projects portfolio to show yo
 
 Warning: If you want to see projects in projects page, you need to create new registers of projects using [Admin](http://localhost:8000/admin) interface.
 
+Warning 2: This application is now under development.
+
 ![Project Image](projects_portfolio_image.png)
 
 ### Technologies
 - Python + Django
-- Sqlite3
+- SQLite3
 
 ### How to run the Django application
 > Run the following commands in the root directory.

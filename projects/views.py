@@ -4,6 +4,8 @@ from django.contrib import messages
 from projects.models import Project
 from .forms import ProjectForm
 
+import markdown
+
 
 #  Create your views here.
 def index(request):
@@ -17,7 +19,8 @@ def index(request):
 def project_detail(request, id):
     project = Project.objects.get(id=id)
     context = {
-        'project': project
+        'project': project,
+        'project_description': markdown.markdown(project.description)
     }
     return render(request, 'project_detail.html', context)
 

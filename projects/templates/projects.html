@@ -37,7 +37,7 @@
                                 <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="{{ project.image }}">
                                 <div class="card-body">
                                     <h5 class="card-title"> {{ project.title }} </h5>
-                                    <p class="card-text"> {{ project.description }} </p>
+                                    {% comment %} <p class="card-text"> {{ project.description }} </p> {% endcomment %}
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <a class="btn btn-primary" href="{% url 'project_detail' project.id %}">View</a>
